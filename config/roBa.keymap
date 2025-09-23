@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &kp LCTRL        &kp PIPE
-&kp SQT          &kp SQT            &none     &none       &none        &kp TAB             &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL
-&kp UP_ARROW     &kp DOWN           &kp LEFT  &kp RIGHT   &none        &kp UNDERSCORE      &kp SEMI     &kp PLUS              &kp MINUS              &kp ASTERISK    &kp SLASH        &kp QUESTION
-&none            &none              &trans    &trans      &trans       &trans              &trans       &trans                                                                        &none
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp SQT   &kp DOLLAR  &kp PERCENT                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &kp LCTRL         &kp PIPE
+&kp HASH         &kp ASTERISK       &none     &none       &none        &kp TAB             &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp EQUAL
+&kp UP_ARROW     &kp DOWN           &kp LEFT  &kp RIGHT   &none        &kp UNDERSCORE      &kp SEMI     &kp PLUS              &kp MINUS              &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION
+&none            &none              &trans    &trans      &trans       &trans              &trans       &trans                                                                         &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
